@@ -4,12 +4,13 @@
 This project demonstrates an ETL-style basic data cleaning and transformation pipeline using pandas
 
 ## Steps Performed
-- Cleaned string columns (name, city)
-- Handled missing values
+- Cleaned inconsistent string formats
+- Handled missing values (mean, default values)
 - Removed duplicates
 - Added derived columns (bonus, category)
 - Sorted data
-- Merged with department dataset
+- Feature engineering using vectorization
+- Merged datasets using left join
 
 ## Tech Used
 - Python
