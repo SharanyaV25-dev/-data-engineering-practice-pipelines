@@ -1,20 +1,61 @@
-# Pandas Data Cleaning Pipeline
+# Data Engineering Practice Pipelines
 
 ## Overview
-This project demonstrates an ETL-style basic data cleaning and transformation pipeline using pandas
+This repository showcases hands-on practice and mini pipelines built while learning data engineering concepts. It covers data cleaning, transformation, and processing using both Pandas and PySpark, focusing on real-world ETL patterns.
 
-## Steps Performed
-- Cleaned inconsistent string formats
-- Handled missing values (mean, default values)
-- Removed duplicates
-- Added derived columns (bonus, category)
-- Sorted data
-- Feature engineering using vectorization
-- Merged datasets using left join
-
-## Tech Used
+## Technologies Used
 - Python
 - Pandas
+- PySpark
 
-## Output
-Cleaned dataset with additional business insights
+## Key Concepts Covered
+
+### Data Cleaning & Transformation (Pandas)
+- Handling inconsistent string formats
+- Managing missing values (mean, default strategies)
+- Removing duplicates
+- Feature engineering using vectorization
+- Sorting and filtering data
+- Merging datasets using joins
+
+### Distributed Data Processing (PySpark)
+- Creating DataFrames using Spark
+- Filtering and selecting data
+- GroupBy and aggregations
+- Adding derived columns using transformations
+- Sorting data in distributed environment
+
+---
+
+## Pipeline Approach
+The work in this repository follows a structured ETL pattern:
+
+1. Data Ingestion  
+2. Data Cleaning  
+3. Transformation  
+4. Aggregation  
+5. Output generation  
+
+---
+
+## Projects Included
+
+### 1. Pandas Data Cleaning Pipeline
+- Built a mini ETL pipeline using Pandas
+- Focused on preprocessing and transformation
+
+### 2. PySpark Basics Pipeline
+- Implemented distributed data processing using PySpark
+- Performed filtering, aggregation, and transformations
+
+---
+
+## Key Learnings
+- Transitioned from single-machine processing (Pandas) to distributed computing (PySpark)
+- Understood ETL pipeline structure and real-world data workflows
+- Strengthened problem-solving using structured transformations
+
+---
+
+## Goal
+To build strong, practical data engineering skills aligned with industry requirements and prepare for data engineering roles.
