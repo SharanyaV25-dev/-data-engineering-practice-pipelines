@@ -22,5 +22,12 @@ df = df.withColumn("salary_category", when(col("salary") > 60000, "High").otherw
 df.show()
 #sort by salary
 df.orderBy("salary").show()
+# multiple transformations by chaining
+result = (
+    df.filter(df.salary > 50000)
+      .withColumn("bonus", df.salary * 0.1)
+      .groupBy("city")
+      .avg("bonus").explain()
+)
 #Stop the SparkSession
 spark.stop()
