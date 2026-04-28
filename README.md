@@ -59,3 +59,4 @@ The work in this repository follows a structured ETL pattern:
 
 ## Goal
 To build strong, practical data engineering skills aligned with industry requirements and prepare for data engineering roles.
+---
